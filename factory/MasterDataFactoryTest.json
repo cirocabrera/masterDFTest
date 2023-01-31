@@ -1,0 +1,9 @@
+{
+	"name": "MasterDataFactoryTest",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "65137354-397a-4e5f-9355-e34faa26d73a",
+		"tenantId": "038c9ded-f928-4ea3-b478-7707be3d8013"
+	}
+}
