@@ -1,0 +1,25 @@
+{
+	"name": "triggerMasterCharge",
+	"properties": {
+		"description": "triggerMasterCharge",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 20,
+				"startTime": "2023-02-01T21:33:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
