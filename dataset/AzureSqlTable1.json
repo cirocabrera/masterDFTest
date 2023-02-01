@@ -9,7 +9,8 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "tabla1"
+			"schema": "dbo",
+			"table": "datatable"
 		}
 	}
 }
