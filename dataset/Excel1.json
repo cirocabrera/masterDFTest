@@ -8,13 +8,15 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "SERVICES MONTHLY",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "services_total_sa_nace2.xlsx",
+				"fileName": "serviciosUNI.xlsx",
 				"container": "newcontainer"
 			},
-			"firstRowAsHeader": true
+			"sheetIndex": 0,
+			"range": "A2:AD9",
+			"firstRowAsHeader": true,
+			"nullValue": " "
 		},
 		"schema": []
 	}
