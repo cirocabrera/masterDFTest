@@ -8,9 +8,13 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "SERVICES MONTHLY",
 			"location": {
-				"type": "AzureBlobStorageLocation"
-			}
+				"type": "AzureBlobStorageLocation",
+				"fileName": "services_total_sa_nace2.xlsx",
+				"container": "newcontainer"
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": []
 	}
