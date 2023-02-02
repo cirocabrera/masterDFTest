@@ -2,12 +2,17 @@
 	"name": "AzureSqlTable1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSqlDatabase2",
+			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "tabla1",
+				"type": "nchar"
+			}
+		],
 		"typeProperties": {
 			"schema": "dbo",
 			"table": "tabla1"

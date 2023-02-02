@@ -9,14 +9,9 @@
 		"type": "Excel",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"fileName": "serviciosUNI.xlsx",
-				"container": "newcontainer"
+				"type": "AzureBlobStorageLocation"
 			},
-			"sheetIndex": 0,
-			"range": "A2:AD9",
-			"firstRowAsHeader": true,
-			"nullValue": " "
+			"firstRowAsHeader": true
 		},
 		"schema": []
 	}

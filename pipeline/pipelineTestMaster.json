@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "pipelineTestMaster",
 	"properties": {
 		"activities": [
 			{
@@ -23,32 +23,11 @@
 							"enablePartitionDiscovery": false
 						}
 					},
-					"sink": {
-						"type": "AzureSqlSink",
-						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false,
-						"tableOption": "autoCreate",
-						"disableMetricsCollection": false
-					},
-					"enableStaging": false,
-					"translator": {
-						"type": "TabularTranslator",
-						"typeConversion": true,
-						"typeConversionSettings": {
-							"allowDataTruncation": true,
-							"treatBooleanAsNumber": false
-						}
-					}
+					"enableStaging": false
 				},
 				"inputs": [
 					{
-						"referenceName": "Excelmastertest1",
-						"type": "DatasetReference"
-					}
-				],
-				"outputs": [
-					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "Excel1",
 						"type": "DatasetReference"
 					}
 				]

@@ -1,0 +1,58 @@
+{
+	"name": "Excelmastertest1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "serviciosUNI.xlsx",
+				"container": "newcontainer"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "FECHA",
+				"type": "String"
+			},
+			{
+				"name": "LIBRE0",
+				"type": "String"
+			},
+			{
+				"name": "SERV.EU.TOT.COF.BS.M",
+				"type": "String"
+			},
+			{
+				"name": "SERV.EU.TOT.1.BS.M",
+				"type": "String"
+			},
+			{
+				"name": "SERV.EU.TOT.2.BS.M",
+				"type": "String"
+			},
+			{
+				"name": "SERV.EU.TOT.3.BS.M",
+				"type": "String"
+			},
+			{
+				"name": "SERV.EU.TOT.4.BS.M",
+				"type": "String"
+			},
+			{
+				"name": "SERV.EU.TOT.5.BS.M",
+				"type": "String"
+			},
+			{
+				"name": "SERV.EU.TOT.6.BS.M",
+				"type": "String"
+			}
+		]
+	}
+}
