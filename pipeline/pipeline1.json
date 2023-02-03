@@ -42,13 +42,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Excelmastertest1",
+						"referenceName": "Excel2",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "AzureSqlTable2",
 						"type": "DatasetReference"
 					}
 				]
