@@ -8,8 +8,11 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "primero",
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "serviciosUNI.xlsx",
+				"container": "newcontainer"
 			},
 			"firstRowAsHeader": true
 		},
